@@ -36,7 +36,7 @@ class MultipleChoice extends React.Component {
         }
 
         return (
-            <div style={{ marginRight: "5%", textAlign: "center" }}>
+            <div style={{ marginRight: "5%", textAlign: "left" }}>
                 <FormControl>
                     <RadioGroup value={this.state.value} onChange={this.handleChange}>
                         {choices.length > 0
